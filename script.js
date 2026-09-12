@@ -15,6 +15,8 @@ function updateUI() {
     colorCode.textContent = colorValue;
 }
 
+updateUI();
+
 setInterval(() => {
     updateUI()
 }, 2000);
